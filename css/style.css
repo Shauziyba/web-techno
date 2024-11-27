@@ -1,5 +1,5 @@
 :root {
-  --primary: #b6895b;
+  --primary: #4594FF;
   --bg: #010101;
 }
 
@@ -28,8 +28,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: rgba(1, 1, 1, 0.8);
-  border-bottom: 1px solid #513c28;
+  background-color: rgba(12, 17, 74, 0.8);
+  border-bottom: 1px solid #4594FF;
   position: fixed;
   top: 0;
   left: 0;
@@ -45,7 +45,7 @@ body {
 }
 
 .navbar .navbar-logo span {
-  color: var(--primary);
+  color: #4594FF;
 }
 
 .navbar .navbar-nav a {
@@ -175,7 +175,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('../img/header-bg.jpeg');
+  background-image: url('../img/gambar_orang_baca_buku.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -198,10 +198,10 @@ body {
   position: absolute;
   /* background: salmon; */
   inset: 0;
-  -webkit-mask-image: url('../img/header-bg.svg');
+  /* -webkit-mask-image: url('../img/header-bg.svg');
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
-  -webkit-mask-position: center;
+  -webkit-mask-position: center; */
 }
 
 .hero .content {
